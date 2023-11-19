@@ -1,2 +1,2 @@
-# Sorakime-tegakun03web.github.io
+# Sorakime-tegakun
 Sorakimeさんに作ってもらってるポートフォリオサイト置き場
