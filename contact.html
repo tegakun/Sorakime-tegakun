@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta chaset="utf-8">
+    <link rel="shortcut icon" href="/img/icon.jpg">
+    <link rel="stylesheet" href="/style/common.css">
+    <link rel="stylesheet" href="/style/article.css">
+    <title>てーがーくんのWebサイト</title>
+  </head>
+  <body>
+    <a href="javascript:menu()" id="menu-btn"></a>
+    <div id="menu">
+      <div id="menu-1btn">
+        <p><a href="/#">トップ</a></p>
+        <p><a href="/#about">自己紹介</a></p>
+        <p><a href="/#links">リンク</a></p>
+        <p><a href="/#groups">グループ</a></p>
+        <p><a href="/#kizai">機材</a></p>
+        <hr>
+        <p><a href="/article/">記事一覧</a></p>
+      </div>
+      <div id="menu-2btn">
+        <p><a href="https://twitter.com/intent/tweet?text=てーがーくんのWebサイト https://tegakun.bt-ch.jp" id="share">Xでシェアする</a></p>
+        <p>てーがーくんのWebサイト</p>
+        <p>Developed by <a href="https://www.soraki.me">Sorakime</a></p>
+        <p>Copyright &copy; てーがーくん All rights reserved.</p>
+      </div>
+    </div>
+    <main>
+      <div id="top">
+        <p id="top-menu-text"><a href="javascript:menu();">MENU</a></p>
+        <div id="top-content">
+          <h1>てーがーくんへのお問い合わせ</h1>
+          <p id="top-about-short">お気軽にご連絡ください的なやつ</p>
+        </div>
+      </div>
+      <article>
+        <p>連絡手段：</p>
+        <p>Xのダイレクトメッセージ：<a href="https://twitter.com/tegakuntv">@tegakuntv</a></p>
+        <p>
+          メール：
+          <img src="/img/mail.svg" alt="Mail">
+        </p>
+        <p>それから、以下のお問い合わせフォームを使うこともできます。</p>
+        <hr>
+        <h1>お問い合わせフォーム</h1>
+        <p>いただいたお問い合わせにはできるだけ早く返信しますが、みたいな文章。</p>
+        <p>なお、お問い合わせの際には以下の点に注意してください。</p>
+        <ul>
+          <li>できるだけ具体的な表現を心がける</li>
+          <li>お名前欄には、ペンネームを入力することも可能です。</li>
+          <li>とかそういうやつ</li>
+        </ul>
+        <!--ここ変更よろしく-->
+        <form class="" action="" method="post">
+          <table>
+            <tbody>
+              <tr>
+                <td><label for="name">お名前</label></td>
+                <td><input id="name" type="text" name="name" placeholder="山田太郎"></td>
+              </tr>
+              <tr>
+                <td><label for="email">メールアドレス</label></td>
+                <td><input id="email" type="email" name="email" placeholder="mail@example.com"></td>
+              </tr>
+              <tr>
+                <td><label for="content">お問い合わせ内容</label></td>
+                <td><textarea id="content" name="content"></textarea></td>
+              </tr>
+            </tbody>
+          </table>
+          <button type="submit">送信</button>
+        </form>
+      </article>
+    </main>
+    <script src="/script/common.js"></script>
+    <style>
+      #top {
+        height: auto;
+        width: 100vw;
+      }
+      article {
+        min-height: 100vh;
+        overflow: auto;
+      }
+      form {
+        width: auto;
+        background-color: #5551;
+        border-radius: 30px;
+      }
+      table {
+        margin: 10px;
+        max-width: inherit;
+      }
+      table td {
+        border: none;
+        padding: 10px;
+      }
+      table input {
+        width: 100%;
+        box-sizing: border-box;
+      }
+      textarea {
+        min-width: 250px;
+        width: 45vw;
+        max-width: calc(100vw - 450px);
+        min-height: 25px;
+      }
+      input, textarea {
+        background-color: #fff8;
+        border: 1px solid #8885;
+        border-radius: 10px;
+        padding: 3px;
+      }
+      button {
+        font-size: 18px;
+        background-color: #fffa;
+        margin-left: 20px;
+        border-radius: 10px;
+        padding: 5px 8px;
+        margin-bottom: 20px;
+        border: 2px solid #9997;
+      }
+    </style>
+  </body>
+</html>

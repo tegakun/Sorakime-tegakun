@@ -25,7 +25,7 @@ body::before {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background-image: url('/Sorakime-tegakun/img/back.jpg');
+  background-image: url('/img/back.jpg');
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -141,7 +141,7 @@ summary::-webkit-details-marker {
   aspect-ratio: 1/1;
   display: inline-block;
   border-radius: 100%;
-  background-image: url('/Sorakime-tegakun/img/icon.jpg');
+  background-image: url('/img/icon.jpg');
 }
 #top-content h1 {
   font-size: 50px;
@@ -163,16 +163,16 @@ summary::-webkit-details-marker {
   box-shadow: 0 0 10px #0009;
 }
 .top-link.x {
-  background-image: url('/Sorakime-tegakun/img/x-icon.png');
+  background-image: url('/img/x-icon.png');
 }
 .top-link.yt {
-  background-image: url('/Sorakime-tegakun/img/yt-icon.png');
+  background-image: url('/img/yt-icon.png');
 }
 .top-link.ig {
-  background-image: url('/Sorakime-tegakun/img/ig-icon.png');
+  background-image: url('/img/ig-icon.png');
 }
 .top-link.dc {
-  background-image: url('/Sorakime-tegakun/img/dc-icon.png');
+  background-image: url('/img/dc-icon.png');
 }
 #top-about-short {
   font-size: 20px;
