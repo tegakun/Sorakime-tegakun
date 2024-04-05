@@ -6,7 +6,7 @@ window.onload = () => {
   element.innerText = `
     body::before {left: 0vw;}
   `;
-  document.body.insertBefore(element);
+  document.body.appendChild(element);
   /*let sheets = document.styleSheets;
   sheets[sheets.length - 1].insertRule(
     'body::before {left: 0vw;}',
