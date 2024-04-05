@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta chaset="utf-8">
+    <link rel="shortcut icon" href="/img/icon.jpg">
+    <link rel="stylesheet" href="/style/common.css">
+    <title>記事 - てーがーくんのWebサイト</title>
+  </head>
+  <body>
+    <a href="javascript:menu()" id="menu-btn"></a>
+    <div id="menu">
+      <div id="menu-1btn">
+        <p><a href="/#">トップ</a></p>
+        <p><a href="/#about">自己紹介</a></p>
+        <p><a href="/#links">リンク</a></p>
+        <p><a href="/#groups">グループ</a></p>
+        <p><a href="/#kizai">機材</a></p>
+        <hr>
+        <p><a href="/article/">記事一覧</a></p>
+      </div>
+      <div id="menu-2btn">
+        <p><a href="https://twitter.com/intent/tweet?text=てーがーくんのWebサイト <url>" id="share">Xでシェアする</a></p>
+        <p>てーがーくんのWebサイト</p>
+        <p>Developed by <a href="https://www.soraki.me">Sorakime</a></p>
+        <p>Copyright &copy; てーがーくん All rights reserved.</p>
+      </div>
+    </div>
+    <main>
+      <div id="top">
+        <p id="top-menu-text"><a href="javascript:menu();">MENU</a></p>
+        <div id="top-content">
+          <h4>てーがーくんのWebサイト：</h4>
+          <h1>記事一覧</h1>
+          <p id="top-about-short">ここに簡単な説明文を記述しましょう。この背景は仮で、実装時にはそれっぽい画像を持ってきて読み込み完了時に右から左にスライドインします。どうも。</p>
+        </div>
+        <p class="see-more">↓記事一覧をみてみよう</p>
+      </div>
+      <div id="articles">
+        <div id="article-wrapper">
+          <a href="/article/01.html">
+            <div class="article">
+              <div class="article-content">
+                <p>2023年0月0日</p>
+                <h3>記事のタイトル</h3>
+              </div>
+              <span style="background-image: url('')"></span><!--画像が必要ならここに。url('')の中のURLを指定する-->
+            </div>
+          </a>
+          <a href="/article/01.html">
+            <div class="article">
+              <div class="article-content">
+                <p>2023年0月0日</p>
+                <h3>記事のタイトル</h3>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </main>
+    <script src="/script/common.js"></script>
+    <script src="/script/index.js"></script>
+    <style>
+      #articles {
+        border-left: 2px solid #000;
+        padding: 40px 100px;
+      }
+      #articles .article {
+        display: flex;
+        width: 100%;
+        border-radius: 18px;
+        background: #d2d2d2;
+        box-shadow: 0px 0px 10px 0px #0005;
+        margin: 30px 0;
+        padding: 15px;
+      }
+      .article-content {
+        width: inherit;
+      }
+      .article p {
+        font-size: 20px;
+      }
+      .article h3 {
+        font-size: 25px;
+      }
+      .article span {
+        display: inline-block;
+        height: inherit;
+        aspect-ratio: 16/9;
+        min-width: 150px;
+      }
+    </style>
+  </body>
+</html>

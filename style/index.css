@@ -1,0 +1,157 @@
+#about {
+  position: relative;
+  z-index: 51;
+  padding: 70px;
+}
+#about-top {
+  display: flex;
+}
+#about-top h1 {
+  font-size: 100px;
+  min-width: 450px;
+  white-space: nowrap;
+  font-weight: 500;
+  opacity: 0.5;
+}
+#about-top p {
+  font-size: 20px;
+}
+#about-history table tr td {
+  padding: 10px 40px;
+}
+#about-history table tr :first-child {
+  font-size: 50px;
+}
+#about-history table tr :last-child {
+  font-size: 20px;
+}
+
+#links {
+  width: 1000px;
+  margin: 100px auto;
+}
+#links-content-wrapper {
+  display: flex;
+}
+#links-content-left {
+  width: max-content;
+  margin: auto 0;
+  margin-right: 30px;
+  box-sizing: border-box;
+}
+#links-content-left > * {
+  position: relative;
+  display: flex;
+  font-size: 24px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+#links-content-left > * p {
+  margin: auto 0;
+}
+#links-content-left > * > span {
+  background-color: #fff;
+  border-radius: 15px;
+  display: inline-block;
+  height: 50px;
+  aspect-ratio: 1/1;
+  margin-right: 10px;
+  box-shadow: 0px 0px 5px #0005;
+  background-size: 60%;
+  transition: all 0.2s ease-in-out;
+}
+#links-content-left > *:hover > span {
+  background-color: #e3eeff;
+  box-shadow: 0 0 10px #0009;
+}
+:is(#links-threads, #links-niconico) span {
+  background-size: 80%;
+}
+#links-content-right {
+  border-left: 2px solid #000;
+  padding: 30px 0;
+  padding-left: 30px;
+  width: calc(100% - 300px);
+}
+#links-content-right .article {
+  border-radius: 18px;
+  background: #d2d2d2;
+  box-shadow: 0px 0px 10px 0px #0005;
+  display: block;
+  padding: 15px;
+  margin: 15px 0;
+}
+#links-content-right p {
+  font-size: 20px;
+}
+#links-content-right h3 {
+  font-size: 25px;
+}
+
+#groups {
+  margin-bottom: 50px;
+}
+#groups h2 {
+  text-align: center;
+}
+#group-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.group {
+  background-color: #fff;
+  margin: 0 15px;
+  display: flex;
+  width: calc(50% - 30px);
+  height: auto;
+  padding: 20px;
+  margin: 15px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px 0px #0005;
+  box-sizing: border-box;
+}
+.group span:first-child {
+  display: block;
+  height: 100%;
+  aspect-ratio: 1/1;
+  margin-right: 10px;
+}
+.group span a {
+  color: #036;
+  font-weight: 400;
+}
+
+#kizai > h2 {
+  text-align: center;
+}
+#kizai-wrapper {
+  display: flex;
+  padding: 30px;
+  width: 100%;
+  overflow: scroll;
+
+}
+.kizai {
+  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 500px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 38px;
+  box-shadow: 0px 0px 15px 0px #0005;
+  box-sizing: border-box;
+}
+.kizai span {
+  display: block;
+  width: 260px;
+  height: 260px;
+  background-color: #888;
+  border-radius: 18px;
+}
+
+@media (max-width: 1200px) {
+
+}

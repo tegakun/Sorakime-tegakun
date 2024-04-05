@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta chaset="utf-8">
+    <link rel="shortcut icon" href="/img/icon.jpg">
+    <link rel="stylesheet" href="/style/common.css">
+    <link rel="stylesheet" href="/style/article.css">
+    <title>記事のタイトルをここに挿入 - てーがーくんのWebサイト</title>
+  </head>
+  <body>
+    <a href="javascript:menu()" id="menu-btn"></a>
+    <div id="menu">
+      <div id="menu-1btn">
+        <p><a href="/#">トップ</a></p>
+        <p><a href="/#about">自己紹介</a></p>
+        <p><a href="/#links">リンク</a></p>
+        <p><a href="/#groups">グループ</a></p>
+        <p><a href="/#kizai">機材</a></p>
+        <hr>
+        <p><a href="/article/">記事一覧</a></p>
+      </div>
+      <div id="menu-2btn">
+        <p><a href="https://twitter.com/intent/tweet?text=てーがーくんのWebサイト <url>" id="share">Xでシェアする</a></p>
+        <p>てーがーくんのWebサイト</p>
+        <p>Developed by <a href="https://www.soraki.me">Sorakime</a></p>
+        <p>Copyright &copy; てーがーくん All rights reserved.</p>
+      </div>
+    </div>
+    <main>
+      <div id="top">
+        <p id="top-menu-text"><a href="javascript:menu();">MENU</a></p>
+        <div id="top-content">
+          <h4>てーがーくんのWebサイト：</h4>
+          <h1>記事のタイトルをここに挿入</h1>
+          <small>公開：2024年0月0日</small>
+          <small>更新：2024年0月0日</small>
+          <p id="top-about-short">簡単な記事の説明を入力することができます。入力しないこともできます。また、文字数は結構いけると思います。</p>
+        </div>
+      </div>
+      <article>
+        <p>このようにして本文を入力します。ああああ。どうも。ああ。</p>
+        <img src="/img/back.jpg" alt="Background image">
+        <p>imgタグで画像を挿入できます。</p>
+        <h1>これはh1の見出しです。</h1>
+        <h2>これはh2の見出しです。</h2>
+        <h3>これはh3の見出しです。</h3>
+        <h4>これはh4の見出しです。</h4>
+        <h5>これはh5の見出しです。</h5>
+        <h6>これはh6の見出しです。</h6>
+        <p>これはpタグによる本文の記述です。</p>
+        <p><a href="#">これはpタグのなかにaタグを記述することによるリンクです。</a></p>
+        <p>strongタグで<strong>文字を強調</strong>したり、bタグで<b>文字を太く</b>したりできます。働きは同じですが、意味が違うのでSEO嬢の若干の扱いが違うそうですよ。ちなみに、文字はここまで右にいけます。長い文章でも短い文章でもちょうどよく読みやすい横幅に設定しています。</p>
+        <p>iframeで他のページを埋め込むこともできます。</p>
+        <iframe src="/index.html" width="800" height="500"></iframe>
+        <p>小さめなのでレイアウトが崩壊します。</p>
+        <table>
+          <tbody>
+            <tr>
+              <td>なんと、</td>
+              <td>テーブルも</td>
+              <td>作ることが</td>
+            </tr>
+            <tr>
+              <td>できて</td>
+              <td>しまうん</td>
+              <td>です！</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+    </main>
+    <script src="/script/common.js"></script>
+    <script src="/script/index.js"></script>
+    <style>
+      body::before {
+        /*background-image: url('/img/icon.jpg');
+          ここで背景の画像を変えられます*/
+      }
+    </style>
+  </body>
+</html>
